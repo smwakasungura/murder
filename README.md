@@ -79,15 +79,20 @@ _Once everyone has been poisoned and cured once, introduce "`poison2`" and "`ant
 5. Add the players as collaborators to your fork's GitHub repository. (Settings > Manage Access > Invite collaborators)
 6. Create a branch protection rule on 'main'. (Settings > Branches > Branch protection rules > Add rule > `main` > Require pull request reviews before merging)
 7. Gather players to play, ideally in a way they can support one another if they are not confident in using git. E.g. a Zoom session where they can screenshare.
+8. Open up the index.html file in your code editor, ready to start the game.
 
 ### Game Play ###
 1. Explain the rules ([How To Play](https://github.com/lucitemple/murder#how-to-play)), make sure everyone is set up, set a timer (for however long you want to play).
-2. Facilitate screen sharing, and support any struggling players if other players are not forthcoming. _This is a learning exercise, aimed at helping newbies gain pracice and confidence in these git commands (not a competitive game!)._
-3. Review pull requests to the repo as they are made, ensuring they match the requirements:
+2. Start the game by adding the `poison` class to a players card in the index.html file. 
+3. Add the file to the staging area: `git add html.index`
+4. Commit the file with a message: `git commit -m "Poison `<playername>`"`
+5. Push the file to the remote repo: `git push`
+6. Facilitate screen sharing, and support any struggling players if other players are not forthcoming. _This is a learning exercise, aimed at helping newbies gain pracice and confidence in these git commands (not a competitive game!)._
+7. Review pull requests to the repo as they are made, ensuring they match the requirements:
    - Commit message is in the correct format "Cure `<playername>` : Poison `<victimname>`"
    - The antidote and poison classes have been applied correctly for the game to proceed.
-4. Provide feedback to players if they need to make changes to their branch pull request.
-5. Call time when the timer is up. Announce the dearly departed (whoever is currently in a poisoned state). Congratulate everyone on their efforts & check to see if people now feel more confident using Git.
+8. Provide feedback to players if they need to make changes to their branch pull request.
+9. Call time when the timer is up. Announce the dearly departed (whoever is currently in a poisoned state). Congratulate everyone on their efforts & check to see if people now feel more confident using Git.
 
 ## Feedback ##
 Feedback is welcome! Please open an issue to make a suggestion.
