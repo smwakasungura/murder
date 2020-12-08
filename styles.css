@@ -1,31 +1,36 @@
 .poison {
-    color: red;
-    font-family: 'Permanent Marker', cursive;
-    font-weight: bold;
+  color: red;
+  font-family: "Permanent Marker", cursive;
+  font-weight: bold;
 }
 
 .antidote {
-    color: green;
+  color: green;
 }
 
 .poison2 {
-    background-color: rgb(250, 221, 250);
+  background-color: rgb(250, 221, 250);
 }
 
 .antidote2 {
-    background-color: rgb(229, 247, 229);
+  background-color: rgb(229, 247, 229);
 }
 
 header {
-    font-family: 'Permanent Marker', cursive;
-    text-align: center;
-    margin-top: 30px;
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  margin-top: 30px;
 }
 
 body {
-    margin: auto;
-    justify-content: center;
+  margin: auto;
+  justify-content: center;
 }
 .lead {
-    text-align: center;
+  text-align: center;
+}
+.immunity {
+  color: rgb(208, 255, 0);
+  font-weight: bold;
+  background-color: pink;
 }
