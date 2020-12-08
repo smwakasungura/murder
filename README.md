@@ -34,7 +34,8 @@ Victims are announced on the [live site](https://lucitemple.github.io/murder/). 
    - Screenshare (zoom) with the group. _If you need help, ask other players._
    - In the Terminal:
      - Pull the most recent code from GitHub: `git pull`
-     - Create a new branch and switch to it: `git branch -b <newbranchname>`
+     - Create a new branch: `git branch <newbranchname>`
+     - Switch to new branch: `git checkout <newbranchname>`
      - Open the html file in your code editor: `code index.html`
    - In the html file:
      - Find the card with your name. There will be a class on the card called "poison". Change "poison" to `antidote`.
