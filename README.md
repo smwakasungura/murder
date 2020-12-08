@@ -1,10 +1,23 @@
 # murder
-A collaborative group game to practice using git.
+A collaborative group game for practicing git.
 
 ## Scenario ## 
 A murderer is on the loose! 
 
-Victims can be seen on the [live site](https://lucitemple.github.io/murder/). If your name turns red, you have been poisoned. To save yourself, use git and GitHub to cure yourself with the antidote.
+Victims are announced on the [live site](https://lucitemple.github.io/murder/). If your name turns red, you have been poisoned! To save yourself, use git and GitHub, to cure yourself with the antidote.
+
+### What you will learn and practice in this game ###
+- clone a git repository
+- pull updates from a remote repository
+- create a new branch
+- edit an HTML file
+- add a file to the staging area
+- make a commit with a message
+- push changes to the remote repository
+- create a pull request
+- change branches
+- merge branches
+- collaboration
 
 ## Set Up for Players ##
 1. Give the game master your GitHub user name so they can add you as a repo collaborator. 
@@ -59,7 +72,7 @@ _Once everyone has been poisoned and cured once, introduce "`poison2`" and "`ant
 ### Set Up ###
 1. Fork this repo to your own
 2. Host it on GitHub Pages
-3. Edit the README.md file to update the repository info and live site link to your own.
+3. Edit the README.md file to update the repository info and GitHub Pages link to your own.
 4. Edit the index.html file to add the names of your players to the cards.
 5. Add the players as collaborators to your fork's GitHub repository. (Settings > Manage Access > Invite collaborators)
 6. Create a branch protection rule on 'main'. (Settings > Branches > Branch protection rules > Add rule > `main` > Require pull request reviews before merging)
@@ -73,3 +86,7 @@ _Once everyone has been poisoned and cured once, introduce "`poison2`" and "`ant
    - The antidote and poison classes have been applied correctly for the game to proceed.
 4. Provide feedback to players if they need to make changes to their branch pull request.
 5. Call time when the timer is up. Announce the dearly departed (whoever is currently in a poisoned state). Congratulate everyone on their efforts & check to see if people now feel more confident using Git.
+
+## Feedback ##
+Feedback is welcome! Please open an issue to make a suggestion.
+
