@@ -29,3 +29,8 @@ body {
 .lead {
   text-align: center;
 }
+.immunity {
+  color: rgb(208, 255, 0);
+  font-weight: bold;
+  background-color: pink;
+}
