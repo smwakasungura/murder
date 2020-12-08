@@ -26,3 +26,6 @@ body {
     margin: auto;
     justify-content: center;
 }
+.lead {
+    text-align: center;
+}
