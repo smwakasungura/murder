@@ -46,6 +46,7 @@ Victims are announced on the [live site](https://lucitemple.github.io/murder/). 
      - Push changes to the remote repository: `git push -u origin <branchname>`
    - Open the [GitHub repository](https://github.com/lucitemple/murder) in your web browser.
    - Open a "pull request" to merge your branch with main.
+   - If the Game Master requests you make changes to the pull request, do so.
 3. If someone else's name turns red, and they need help, give them support.
 
 ### Optional - Round 2: ###
@@ -53,8 +54,8 @@ _Once everyone has been poisoned and cured once, introduce "`poison2`" and "`ant
 1. If the background of your card turns pink:
    - In the Terminal:
      - Checkout the main branch: `git checkout main`
-     - Pull the most recent code from GitHub: `git pull main`
-     - Checkout your existing branch: `git checkout <branchname>`
+     - Pull the most recent code from GitHub: `git pull`
+     - Checkout your existing branch: `git checkout <newbranchname>`
      - Merge to update your branch: `git merge main`
      - Open the html file in your code editor: `code index.html`
    - In the html file:
