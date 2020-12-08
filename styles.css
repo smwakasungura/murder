@@ -15,3 +15,14 @@
 .antidote2 {
     background-color: rgb(229, 247, 229);
 }
+
+header {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    margin-top: 30px;
+}
+
+body {
+    margin: auto;
+    justify-content: center;
+}
