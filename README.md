@@ -64,7 +64,7 @@ _Once everyone has been poisoned and cured once, introduce "`poison2`" and "`ant
    - In the terminal: 
      - Add file to staging area: `git add index.html`
      - Commit changes with message: `git commit -m "Cure` `<yourname>` `: Poison` `<victimname>"`
-     - Push changes to the remote repository: `git push -u origin <branchname>`
+     - Push changes to your branch on the remote repository: `git push`
    - Open the [GitHub repository](https://github.com/lucitemple/murder) in your web browser.
    - Open a "pull request" to merge your branch with main.
 2. If someone else's card turns pink, and they need help, give them support.
