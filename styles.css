@@ -1,11 +1,18 @@
+.healthy {
+  color: black;
+  background-color: white;
+}
+
 .poison {
   color: red;
   font-family: "Permanent Marker", cursive;
   font-weight: bold;
+  background-color: white;
 }
 
 .antidote {
   color: green;
+  background-color: white;
 }
 
 .poison2 {
@@ -29,8 +36,4 @@ body {
 .lead {
   text-align: center;
 }
-.immunity {
-  color: rgb(208, 255, 0);
-  font-weight: bold;
-  background-color: rgb(174, 216, 190);
-}
+
