@@ -63,7 +63,7 @@
 ## Review and Merge Pull Request
 
 - [Documentation](https://docs.github.com/en/github/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request)
-- Navigate to the open pull request
+- On GitHub, navigate to the open pull request
 - You may need to click on "files changed" to see the changes. Compare the code in the new branch to the main branch, to see what has been changed and avoid code conflicts.
 - Click on the "review changes" button
 - Either "approve" or "request changes", and "submit review".
@@ -99,7 +99,7 @@
 After you have deleted a branch on GitHub, you will want to delete it from your local repository.
 
 - [Documentation](https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/)
-- Checkout the main branch
+- In VSCode terminal/command line, checkout the main branch
 
   `git checkout main`
 
@@ -113,7 +113,7 @@ If you have already been working on your own branch, and want to bring new updat
 
 - [Documentation](https://www.atlassian.com/git/tutorials/using-branches/git-merge)
 
-- Checkout your new branch
+- In VSCode terminal/command line, checkout your new branch
 
   `git checkout your-branch-name`
 
@@ -125,15 +125,17 @@ If you have already been working on your own branch, and want to bring new updat
 
 Protect the main branch from being accidentally overwritten or corrupted by forcing a review process on GitHub.
 
-- [Documentation](https://docs.github.com/en/github/administering-a-repository/defining-the-mergeability-of-pull-requests/managing-a-branch-protection-rule#creating-a-branch-protection-rule)
-- Create a branch protection rule on 'main'. (Settings > Branches > Branch protection rules > Add rule > 'main' > Require pull request reviews before merging)
-- Select the option “Require pull request reviews before merging”
+- [Documentation](https://docs.github.com/en/github/administering-a-repository/defining-the-mergeability-of-pull-requests/managing-a-branch-protection-rule#creating-a-branch-protection-rule) 
+- On GitHub, on your repo page:
+- Settings > Branches > Branch protection rules > Add rule > 'main' > Require pull request reviews before merging
+
 
 ### Add collaborators
 
 Add team members to the repository as ‘Collaborators’.
 
 - [Here's how](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository)
+- On your GitHub repo page:
 - Settings > Manage Access > Invite collaborators
 - You will need to know your teammate’s GitHub username or email address
 - Team members must accept the ‘invitation’ to be collaborators. Check your emails, including spam folder, for the invitation.
