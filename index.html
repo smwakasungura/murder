@@ -9,7 +9,12 @@
     />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
@@ -30,105 +35,147 @@
     <main>
       <p class="lead">
         Scenario: a murderer is on the loose! If your name turns
-        <span class="poison">red</span>, you have been
+        <span class="poison">red</span>
+        , you have been
         <span class="poison">poisoned</span>
-        <i class="fas fa-skull-crossbones"></i>!
+        <i class="fas fa-skull-crossbones"></i>
+        !
       </p>
       <p class="lead">
-        To get the <span class="antidote">antidote</span>, you must use GitHub to change the code, and pick the next victim.
+        To get the
+        <span class="antidote">antidote</span>
+        , you must use GitHub to change the code, and pick the next victim.
       </p>
 
+      <!-- INSTRUCTIONS CARD -->
       <div class="d-flex flex-row justify-content-center">
-                      <div class="card shadow mb-4 bg-white m-2" style="width: 40rem">
+        <div class="card shadow mb-4 bg-white m-2" style="width: 40rem">
           <div class="card-body" id="instruction-card">
             <h5 class="card-title">Instructions</h5>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item" id="instruction-list">All team members clone the github repo. Then begin the game. <a href="cheatsheet.md">Cheatsheet</a></li>
-    <li class="list-group-item">1) Victim: create & checkout a branch in your name</li>
-        <li class="list-group-item">2) Open the index.html file</li>
-    <li class="list-group-item">3) Add the class 'antidote' to the h5 tag of your name</li> 
-        <li class="list-group-item">4) Add the class 'poison' to the h5 tag of your victim's name</li>     
-    <li class="list-group-item">5) Git add, commit & push your changes</li>
-     <li class="list-group-item">6) Open a pull request on GitHub</li>
-     <li class="list-group-item">7) Person2 review pull request, merge branch to main, and delete unneeded named branch</li>
-     <li class="list-group-item">8) In VSCode terminal/command line, victim to 'pull' on the main branch </li>
-     <li class="list-group-item">9) Repeat steps 1-9 so everyone in the group has a turn</li>
-  </ul>
+              <li class="list-group-item" id="instruction-list">
+                All team members clone the github repo. Then begin the game.
+                <a href="./cheatsheet.md">Cheatsheet</a>
+              </li>
+              <li class="list-group-item">
+                1) Victim: create & checkout a branch in your name
+              </li>
+              <li class="list-group-item">2) Open the index.html file</li>
+              <li class="list-group-item">
+                3) Add the class 'antidote' to the h5 tag of your name
+              </li>
+              <li class="list-group-item">
+                4) Add the class 'poison' to the h5 tag of your victim's name
+              </li>
+              <li class="list-group-item">
+                5) Git add, commit & push your changes
+              </li>
+              <li class="list-group-item">6) Open a pull request on GitHub</li>
+              <li class="list-group-item">
+                7) Person2 review pull request, merge branch to main, and delete
+                unneeded named branch
+              </li>
+              <li class="list-group-item">
+                8) In VSCode terminal/command line, victim to 'pull' on the main
+                branch
+              </li>
+              <li class="list-group-item">
+                9) Repeat steps 1-9 so everyone in the group has a turn
+              </li>
+            </ul>
           </div>
         </div>
-      <div class="d-flex flex-wrap justify-content-center">
-        <!-- Bootstrap card component -->
-        <div class="card shadow p-2 mb-4 bg-white m-2" style="width: 18rem">
-          <div class="card-body">
+        <div class="d-flex flex-wrap justify-content-center">
+          <!-- Bootstrap card component -->
+          <div class="card shadow p-2 mb-4 bg-white m-2" style="width: 18rem">
+            <div class="card-body">
+              <!--ADD "poison" or "antidote" to the h5 CLASS-->
 
-            <!--ADD "poison" or "antidote" to the h5 CLASS-->
-            <h5 class="card-title healthy">My Name</h5>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">If my name is black, I'm healthy.</li>
-    <li class="list-group-item">If my name is red, I'm poisoned!</li>
-    <li class="list-group-item">If my name is green, I'm cured!</li>
-  </ul>
+              <h5 class="card-title healthy">My Name</h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  If my name is black, I'm healthy.
+                </li>
+                <li class="list-group-item">
+                  If my name is red, I'm poisoned!
+                </li>
+                <li class="list-group-item">If my name is green, I'm cured!</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card shadow p-2 mb-4 bg-white m-2" style="width: 18rem">
+            <div class="card-body">
+              <!--ADD "poison" or "antidote" to the h5 CLASS-->
+              <h5 class="card-title healthy">My Name</h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  If my name is black, I'm healthy.
+                </li>
+                <li class="list-group-item">
+                  If my name is red, I'm poisoned!
+                </li>
+                <li class="list-group-item">If my name is green, I'm cured!</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card shadow p-2 mb-4 bg-white m-2" style="width: 18rem">
+            <div class="card-body">
+              <!--ADD "poison" or "antidote" to the h5 CLASS-->
+              <h5 class="card-title healthy">My Name</h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  If my name is black, I'm healthy.
+                </li>
+                <li class="list-group-item">
+                  If my name is red, I'm poisoned!
+                </li>
+                <li class="list-group-item">If my name is green, I'm cured!</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card shadow p-2 mb-4 bg-white m-2" style="width: 18rem">
+            <div class="card-body">
+              <!--ADD "poison" or "antidote" to the h5 CLASS-->
+              <h5 class="card-title healthy">My Name</h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  If my name is black, I'm healthy.
+                </li>
+                <li class="list-group-item">
+                  If my name is red, I'm poisoned!
+                </li>
+                <li class="list-group-item">If my name is green, I'm cured!</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card shadow p-2 mb-4 bg-white m-2" style="width: 18rem">
+            <div class="card-body">
+              <!--ADD "poison" or "antidote" to the h5 CLASS-->
+              <h5 class="card-title healthy">My Name</h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  If my name is black, I'm healthy.
+                </li>
+                <li class="list-group-item">
+                  If my name is red, I'm poisoned!
+                </li>
+                <li class="list-group-item">If my name is green, I'm cured!</li>
+              </ul>
+            </div>
           </div>
         </div>
-
-                <div class="card shadow p-2 mb-4 bg-white m-2" style="width: 18rem">
-          <div class="card-body">
-
-            <!--ADD "poison" or "antidote" to the h5 CLASS-->
-            <h5 class="card-title healthy">My Name</h5>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">If my name is black, I'm healthy.</li>
-    <li class="list-group-item">If my name is red, I'm poisoned!</li>
-    <li class="list-group-item">If my name is green, I'm cured!</li>
-  </ul>
-          </div>
-        </div>
-
-        <div class="card shadow p-2 mb-4 bg-white m-2" style="width: 18rem">
-          <div class="card-body">
-
-            <!--ADD "poison" or "antidote" to the h5 CLASS-->
-            <h5 class="card-title healthy">My Name</h5>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">If my name is black, I'm healthy.</li>
-    <li class="list-group-item">If my name is red, I'm poisoned!</li>
-    <li class="list-group-item">If my name is green, I'm cured!</li>
-  </ul>
-          </div>
-        </div>
-
-                <div class="card shadow p-2 mb-4 bg-white m-2" style="width: 18rem">
-          <div class="card-body">
-
-            <!--ADD "poison" or "antidote" to the h5 CLASS-->
-            <h5 class="card-title healthy">My Name</h5>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">If my name is black, I'm healthy.</li>
-    <li class="list-group-item">If my name is red, I'm poisoned!</li>
-    <li class="list-group-item">If my name is green, I'm cured!</li>
-  </ul>
-          </div>
-        </div>
-
-                <div class="card shadow p-2 mb-4 bg-white m-2" style="width: 18rem">
-          <div class="card-body">
-
-            <!--ADD "poison" or "antidote" to the h5 CLASS-->
-            <h5 class="card-title healthy">My Name</h5>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">If my name is black, I'm healthy.</li>
-    <li class="list-group-item">If my name is red, I'm poisoned!</li>
-    <li class="list-group-item">If my name is green, I'm cured!</li>
-  </ul>
-          </div>
-        </div>
-
-      </div>
       </div>
     </main>
 
-<!-- Option 1: Bootstrap Bundle with Popper -->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

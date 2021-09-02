@@ -14,7 +14,6 @@
   font-weight: normal;
 }
 
-
 header {
   font-family: "Permanent Marker", cursive;
   text-align: center;
@@ -33,7 +32,8 @@ body {
   padding: 1rem 0rem;
 }
 
-#instruction-card, #instruction-card .list-group-item {
+#instruction-card,
+#instruction-card .list-group-item {
   background-color: rgb(207, 239, 250);
 }
 
