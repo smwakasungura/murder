@@ -1,27 +1,19 @@
 .healthy {
   color: black;
-  background-color: white;
 }
 
 .poison {
   color: red;
   font-family: "Permanent Marker", cursive;
   font-weight: bold;
-  background-color: white;
 }
 
 .antidote {
   color: green;
-  background-color: white;
+  font-family: var(--bs-font-sans-serif);
+  font-weight: normal;
 }
 
-.poison2 {
-  background-color: rgb(250, 221, 250);
-}
-
-.antidote2 {
-  background-color: rgb(229, 247, 229);
-}
 
 header {
   font-family: "Permanent Marker", cursive;
@@ -35,5 +27,9 @@ body {
 }
 .lead {
   text-align: center;
+}
+
+.list-group-item {
+  padding: 1rem 0rem;
 }
 
