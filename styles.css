@@ -33,3 +33,10 @@ body {
   padding: 1rem 0rem;
 }
 
+#instruction-card, #instruction-card .list-group-item {
+  background-color: rgb(207, 239, 250);
+}
+
+#instruction-list {
+  font-weight: bold;
+}
